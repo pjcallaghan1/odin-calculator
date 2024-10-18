@@ -1,0 +1,11 @@
+* {
+    background-color: #a0d2eb;
+    color: #494d5f;
+}
+
+button {
+    background-color: #d0bdf4;
+    border-color: #8458b3;
+    border-radius: 12px;
+    padding: 12px;
+}
