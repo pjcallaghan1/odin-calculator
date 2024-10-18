@@ -3,9 +3,23 @@
     color: #494d5f;
 }
 
-button {
+button{
     background-color: #d0bdf4;
     border-color: #8458b3;
     border-radius: 12px;
     padding: 12px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+#clear {
+    width: 213px;
+}
+
+#display {
+    background-color: grey;
+    width: 213px;
+    height: 40px;
+    font-size: 35px;
+    text-align: right;
 }

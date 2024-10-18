@@ -2,6 +2,8 @@ let num1 = 0
 let num2 = 0
 let operator = ''
 
+const display = document.getElementById('display');
+
 function add(num1, num2) {
     let addedNum = num1 + num2;
     return addedNum;
