@@ -12,12 +12,12 @@ button{
     margin-top: 5px;
 }
 
-#clear {
-    width: 213px;
+#clear, #back{
+    width: 105px;
 }
 
 #display {
-    background-color: grey;
+    background-color: white;
     width: 213px;
     height: 40px;
     font-size: 35px;

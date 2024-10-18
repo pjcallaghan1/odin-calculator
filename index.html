@@ -4,43 +4,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Calculator</title>
-        <script src="calculator.js"></script>
+        <script src="calculator.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Calculator</h1>
-        <div id="desc">Select Number 1, Operation, and then Number 2.</div>
-        <div id="display"></div>
-        
-        <div class="nums_ops">
-            <div class="row">
-                <button id="clear">Clear</button>
-            </div>
-            <div class="row">
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="add">+</button>
-            </div>
-            <div class="row">
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="subtract">-</button>
-            </div>
-            <div class="row">
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="multiply">x</button>
-            </div>
-            <div class="row">
-                <button id=".">.</button>
-                <button id="0">0</button>
-                <button id="equals">=</button>
-                <button id="divide">%</button>  
+        <div id="calc_box">
+            <div id="display"></div>
+            <div class="nums_ops">
+                <div class="row">
+                    <button id="clear">Clear</button>
+                    <button id="back">Delete</button>
+                </div>
+                <div class="row">
+                    <button class="num" id="7">7</button>
+                    <button class="num" id="8">8</button>
+                    <button class="num" id="9">9</button>
+                    <button class="op" id="add">+</button>
+                </div>
+                <div class="row">
+                    <button class="num" id="4">4</button>
+                    <button class="num" id="5">5</button>
+                    <button class="num" id="6">6</button>
+                    <button class="op" id="subtract">-</button>
+                </div>
+                <div class="row">
+                    <button class="num" id="1">1</button>
+                    <button class="num" id="2">2</button>
+                    <button class="num" id="3">3</button>
+                    <button class="op" id="multiply">x</button>
+                </div>
+                <div class="row">
+                    <button class="decimal" id=".">.</button>
+                    <button class="num" id="0">0</button>
+                    <button id="equals">=</button>
+                    <button class="op" id="divide">%</button>  
+                </div>
             </div>
         </div>
-        
+        <div id="keyboard_desc">
+            <h3>Keyboard Supported!</h3>
+            <div>Press c to clear.</div>
+            <div>Press Backspace to delete.</div>
+        </div>
     </body>
 </html>
